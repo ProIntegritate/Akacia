@@ -53,10 +53,10 @@ Aaaand hex values can also be used {0x00}, {0x01}, ..., {0xff}
 You can start multiple instances of Akacia with different configs, using different ports an protocols:
 
 Simulate a Webserver:<br/>
-**C:\> start Akacia.exe -i0.0.0.0 -PTCP -p80 -t500 -rwebserver-rules.txt -lAkacia_Web_%date%.log**
+**C:\\> start Akacia.exe -i0.0.0.0 -PTCP -p80 -t500 -rwebserver-rules.txt -lAkacia_Web_%date%.log**
 
 Simulate a Syslog server:<br/>
-**C:\> start Akacia.exe -i0.0.0.0 -PUDP -p514 -t500 -rsyslog-rules.txt -lAkacia_Syslog_%date%.log**
+**C:\\> start Akacia.exe -i0.0.0.0 -PUDP -p514 -t500 -rsyslog-rules.txt -lAkacia_Syslog_%date%.log**
 
 Note: If you provide no rules file, it will basically be a dumb low interaction honeypot.
 
