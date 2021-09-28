@@ -69,7 +69,11 @@ All logging uses Append mode, logfiles are not locked (which is a stupid practic
 ## Limitations
 - For now only an executable will be released. I'll make a decision about the source code at a later point.
 - Logfiles will have to be gathered manually, if you want automatic forwarding, that is for you to build.
-- License: **Creative Commons - Non commercial**. Basically like CCZero, but you are not allowed to profit from this, like being an MSSP. The password for the zip file is "CC-NC" (capital letters). If you want to throw up some Honeypots on your corporate network to detect scanning and probing, i'm fine with that. I just don't want security companies to use this for free and make money on it.
+
+## License
+**Creative Commons - Non commercial**.
+
+Basically like CCZero, but you are not allowed to profit from this, like being an MSSP. The password for the zip file is "CC-NC" (capital letters). If you want to throw up some Honeypots on your corporate network to detect scanning and probing, i'm fine with that. I just don't want security companies to use this for free and make money on it.
 
 ![License Creative Commons - Non Commercial](CC-NC.png)
 
