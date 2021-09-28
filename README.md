@@ -69,6 +69,8 @@ All logging uses Append mode, logfiles are not locked (which is a stupid practic
 ## Limitations
 - For now only an executable will be released. I'll make a decision about the source code at a later point.
 - Logfiles will have to be gathered manually, if you want automatic forwarding, that is for you to build.
+- No TLS support.
+- Single threaded, Single socket.
 
 ## License
 **Creative Commons - Non commercial**.
