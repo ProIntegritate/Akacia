@@ -1,6 +1,6 @@
 # Akacia - High Interaction Honeypot.
 
-![Screen sample](Akacia.Screen.png)
+![Screen sample](images/Akacia.Screen.png)
 
 Akacia is a high quality honey that is tasty and very sticky. It is made from the flower Robinia, which is called "False Akacia", which is a pretty good name for a Honeypot.
 
@@ -18,7 +18,7 @@ OnConnect is sent as soon as the client connects. Needless to say, this is only 
 
 OnReceiveData matches patterns (strings or regex) in the received data and if there is a match it sends the response.
 
-![Rules Example](Akacia.RulesExample.png)
+![Rules Example](images/Akacia.RulesExample.png)
 
 Only some basic rule examples are provided as i don't have the time to write rules for every network service out there. Run **Akacia.exe -s** and it will write an example rules.txt file to the current folder. Read that for more info.
 
@@ -64,7 +64,7 @@ Note: If you provide no rules file, it will basically be a dumb low interaction 
 
 All logging uses Append mode, logfiles are not locked (which is a stupid practice), so if you want to parse the logfiles, just move it somewhere and parse it, new entries will be created in a new logfile with the same name.
 
-![Log Sample](Akacia.LogSample.png)
+![Log Sample](images/Akacia.LogSample.png)
 
 ## Limitations
 - For now only an executable will be released. I'll make a decision about the source code at a later point.
@@ -79,7 +79,7 @@ So, while you CAN use Akacia as a HTTPD or a Syslog server, you REALLY shouldn't
 
 Basically like CCZero, but you are not allowed to profit from this, like being an MSSP. The password for the zip file is "CC-NC" (capital letters). If you want to throw up some Honeypots on your corporate network to detect scanning and probing, i'm fine with that. I just don't want security companies to use this for free and make money on it.
 
-![License Creative Commons - Non Commercial](CC-NC.png)
+![License Creative Commons - Non Commercial](images/CC-NC.png)
 
 Read more here: [https://creativecommons.org/licenses/by-nc/2.0/](https://creativecommons.org/licenses/by-nc/2.0/)
 
@@ -88,7 +88,7 @@ Read more here: [https://creativecommons.org/licenses/by-nc/2.0/](https://creati
 2. If you haven't got .NET runtine 4.7.2. installed, get that now.
 3. Done. Everything is included in the standalone executable.
 
-![Started](Akacia.Started.png)
+![Started](images/Akacia.Started.png)
 
 Thats it.
 Feedback, Requests and Bug reports are welcome: [https://twitter.com/pro_integritate](https://twitter.com/pro_integritate)
